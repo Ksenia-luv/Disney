@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li class="menu-item">Main</li>
+        <li class="menu-item">Home</li>
+        <li class="menu-item">Catalog</li>
+        <li class="menu-item">Examples</li>
+        <li class="menu-item">Beginning</li>
+    </ul>
+
+    <main>
+        <p class="text">
+            Ассортимент сайта
+        </p>
+        <p class="text">
+            Акции
+        </p>
+        <p class="text">
+            Корзина
+        </p>
+        </main>
+        <div class="menu">
+    <style>
+    
+        .text::first-letter{
+            background-color: rgb(255, 174, 244);
+            color:rgb(201, 240, 255);
+            font-size: x-large;
+        }
+        .menu-item::before{
+            content: '';
+            display: inline-block;
+            width: 17px;
+            height: 17px;
+            color: rgb(2, 255, 200);
+            margin-left: 8px;
+        }
+        .menu-item{
+            display:inline-block;
+            margin-right: 20px;
+            cursor: pointer;
+            color: rgb(151, 253, 190);/* исходный цыет текста */
+        }
+        .menu-item:hover{
+            color: rgb(255, 177, 242);
+        }
+    </style>
+    
+</body>
+</html>
